@@ -1,0 +1,8 @@
+version: "3.7"
+services:
+    devenv:
+        build:
+            context: .
+            dockerfile: dev.Dockerfile
+        ports:
+            - "7777:22"
